@@ -1,0 +1,53 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
+   font-family: 'Montserrat', sans-serif;
+}
+
+header nav{
+	background: #2c4190;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+
+header nav a{
+	font-size: 11px;
+	color: #a4aed2;
+}
+
+@media only screen and  (min-width:1150px){
+
+	.container{
+		width: 1170px;
+	}
+
+
+
+}
+
+	
+
+}
+@media only screen and (max-width: 1149px){
+	.container {
+	    width: 90%;
+	}
+	
+}
+
+
+/* COL-MD */
+@media only screen and  (max-width:1100px) and (min-width:992px){
+
+}
+/* COL-SM */
+@media only screen and  (max-width:992px) and (min-width:767px){
+    
+}
+/* COL-XS */
+@media only screen and  (max-width:767px){
+
+	#maxmeio-id{
+		display: none !important;
+	}
+
+}
