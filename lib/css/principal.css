@@ -3,7 +3,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
 }
 
 header nav{
-	background: #2c4190;
+	background: #3e3c3d;
 	height: 50px;
 	line-height: 50px;
 	margin-bottom: 20px;
@@ -15,7 +15,7 @@ a,a:hover{
 
 header nav a{
 	font-size: 11px;
-	color: #a4aed2;
+	color: #efefef;
 }
 header nav a:hover{
 	color:#bfdb74;
