@@ -491,6 +491,7 @@ footer a:hover{
     width: 100%;
     margin-top: 0;
     margin-left: 0;
+    position: relative;
 }
 
 .form-group input[type=text] {
@@ -501,6 +502,15 @@ footer a:hover{
     padding: 9px;
     margin-right: 5px;
     margin-bottom: 0;
+}
+
+.form-group button {
+    height: 56px;
+    position: absolute;
+    width: 49px;
+    right: 0;
+    top: 0;
+    padding: 8px 10px 8px 8px;
 }
 
 }
