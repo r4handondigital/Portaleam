@@ -1,0 +1,51 @@
+ 
+
+        <footer>
+        	<div class="container">
+				<div class="row no-margin">
+					<div class="col s12 m3 hide-on-med-and-down">
+						<img src="imgs/portal-eam-rodape.png" class="responsive-img">
+					</div>
+
+					<div class="col s12 m6 l3">
+						<h4>FALE <span>CONOSCO</span></h4>
+						<p><strong>Macau/RN</strong><br>
+						+55 84.3256.25869<br>
+						contato@portaleam.com</p>
+						<h4>DESENVOLVIDO <span>POR</span></h4>
+						<p>	<a href="http://www.r4handon.com.br" target="_blank">R4HANDON.COM.BR</a></p>
+					</div>
+
+					<div class="col s12 m6 l6">
+						<script async src="//widget.horoscopovirtual.com.br/js/horoscopo.js?background=3e3c3d&color=ffffff&border=3e3c3d&text=ffffff&font=roboto"></script>
+
+					</div>
+				</div>
+        	</div>
+        </footer>
+
+
+  
+
+
+
+            <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="lib/js/jquery.min.js"></script>
+        <script src="lib/js/jquery-migrate-1.2.1.min.js"></script>
+        
+        <script type="text/javascript" src="lib/materialize/js/materialize.min.js"></script>
+        <script type="text/javascript" src="lib/owl-carousel/owl.carousel.min.js"></script>
+        <script src="lib/js/script.js"></script>
+
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2&appId=272357990148147&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        </body>
+</html>
