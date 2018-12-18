@@ -16,12 +16,14 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,800,900" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <link href="lib/materialize/css/materialize.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="lib/owl-carousel/assets/owl.carousel.min.css">
-		<link rel="stylesheet" type="text/css" href="lib/owl-carousel/assets/owl.theme.default.min.css">
-		<link rel="stylesheet" type="text/css" href="lib/owl-carousel/assets/owl.theme.green.min.css">
+        <link href="<?php bloginfo('template_url'); ?>lib/materialize/css/materialize.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>lib/owl-carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>lib/owl-carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>lib/owl-carousel/assets/owl.theme.green.min.css">
 		<!-- Custom styles for this template -->
-		<link href="lib/css/principal.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>lib/css/principal.css" rel="stylesheet">
+
+		<?php wp_head() ?>
 	</head>
         <body>
        
