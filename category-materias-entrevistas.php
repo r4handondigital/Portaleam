@@ -7,7 +7,7 @@
         	<div class="container">
 				<div class="row">
 					<div class="col s12">
-						<h1 class="center">Entrevistas</h1>
+						<h1 class="center">ENTREVISTAS</h1>
 					</div>
 				</div>
         	</div>

@@ -119,6 +119,7 @@ h3.titulos-noticias{
 	color: #2c4190;
 	font-size: 11px;
 	display: block;
+	font-weight: 700;
 }
 
 .chamada{
@@ -402,6 +403,179 @@ footer a:hover{
 .interna .chamada{
 	font-style: italic;
 
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #2c4190;
+}
+
+img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon img {
+    border: 1px solid #DDDDDD;
+    padding: 6px;
+
+    max-width: 840px;
+    height: auto !important;
+}
+.wp-caption img {
+    border-color: #EDEDED;
+}
+a:focus img[class*="align"], a:hover img[class*="align"], a:active img[class*="align"], a:focus img[class*="wp-image-"], a:hover img[class*="wp-image-"], a:active img[class*="wp-image-"], #content .gallery .gallery-icon a:focus img, #content .gallery .gallery-icon a:hover img, #content .gallery .gallery-icon a:active img {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: #BBBBBB;
+}
+.wp-caption a:focus img, .wp-caption a:active img, .wp-caption a:hover img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #DDDDDD;
+}
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.625em;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.625em;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-caption {
+    background-color: #FCFCFD;
+    border: 1px solid #F5F5F5;
+    padding-top: 4px;
+    text-align: center;
+ 
+}
+.wp-caption img {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.wp-caption-text {
+    font-size: 11px;
+    font-style: italic;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+
+.wpcf7-submit {
+    font-weight: 700;
+    border-radius: 40px;
+    background: none;
+    color: #3f3f3f;
+    box-shadow: none;
+    border: 2px solid #3f3f3f;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 65px 0 65px;
+    height: 50px;
+    line-height: 48px;
+    float: right;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #666;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #666;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #666;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #666;
+}
+
+.selec{
+	font-size: 40px;
+
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 20px;
+}
+
+.selec span{
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.titulos-vagas{
+	font-size: 30px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #cecece;
+}
+textarea {
+	padding: 9px 15px;
+    width: 100%;
+    height: 120px;
+    -webkit-box-sizing:inherit;
+    box-sizing: inherit;
+        border: 2px solid #3f3f3f;
+        border-top:0;
+        border-left:0;
+        border-right:0; 
+    
+}
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+   background-color: #fff;
+    border-bottom: 2px solid #3f3f3f;
+      
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    padding: 9px 15px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing:inherit;
+    box-sizing: inherit;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.navigation{
+	text-align: center;
+	margin: 0 auto;
+}
+
+/** =Paginate links Styles
+ ******************************************* **/
+.page-numbers {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+.page-numbers li {
+    display: inline-block;
+    margin-left: 3px;
+    border-radius: 50%;
+}
+.page-numbers a, .page-numbers .dots, .page-numbers .next, .page-numbers .prev {
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 40%;
+    border: 2px solid #3f3f3f;
+}
+.page-numbers a:hover, .page-numbers .next:hover, .page-numbers .prev:hover {
+    background: #666;
+	color:#fff;
+}
+.page-numbers .current {
+    padding: 6px 12px;
+    border-radius: 40%;
+    border: 2px solid #da2135;
+    color: #da2135;
 }
 
 @media only screen and  (min-width:1150px){

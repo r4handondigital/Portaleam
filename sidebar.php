@@ -6,7 +6,7 @@
 
 								<?php query_posts(array( 'post_type' => 'post','showposts' => '1', 'cat' => '-4,-5' )); ?>
 						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-							<div class="col s12 m6 l3">
+							<div class="col s12 ">
 								<a href="<?php the_permalink(); ?>" class="lkhover">
 									<img src="<?php the_field('imagens_para_capa'); ?>" alt="" class="responsive-img " />
 									<h3 class="titulos-noticias">

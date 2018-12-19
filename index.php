@@ -7,7 +7,7 @@
         	<div class="container">
         		<div class="row">
 		        	<div class="col s12">
-						<img src="imgs/bannerl.jpg">
+						<img src="<?php bloginfo('template_url'); ?>/imgs/bannerl.jpg">
 		        	</div>
 		        </div>
 	        </div>
@@ -43,11 +43,14 @@
 					<div class="col s12 m12 l8">
 						<div class="destaque-principal owl-carousel owl-theme">
 
-						<?php query_posts(array( 'post_type' => 'post','showposts' => '5', 'cat' => '2' )); ?>
+						<?php query_posts(array( 'post_type' => 'post','showposts' => '5' )); ?>
+						<?php get_category_by_slug('destaque-principal'); ?>
 						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+						
 							<div class="chamadas-principais">
 	                            <a href="<?php the_permalink(); ?>">
-	                                <img src="<?php the_field('imagens_para_capa'); ?>" alt="" class="responsive-img destaque-principal-img" />                                <div class="bloco-azul">
+	                                <img src="<?php the_field('imagens_para_capa'); ?>" class="responsive-img " />                                
+	                                <div class="bloco-azul">
 	                                    <h3>
 	                                        <span><?php the_field('chapeu'); ?> | <?php echo get_the_date('d'); ?> de <?php echo get_the_date('F'); ?></span>
 	                                       <?php echo strip_tags(get_the_title()); ?></h3>
@@ -55,7 +58,7 @@
 	                                </div><!--.bloco-azul-->
 	                            </a>
 	                        </div>
-
+						
 						<?php endwhile; endif; ?> 
 	         		<?php wp_reset_query(); ?>
 	                       
@@ -91,7 +94,7 @@
 			<div class="container">
 				<div class="row">
 
-				<?php query_posts(array( 'post_type' => 'post','showposts' => '4', 'cat' => '-4,-5' )); ?>
+				<?php query_posts(array( 'post_type' => 'post','showposts' => '4', 'cat' => '-4,-5,-6' )); ?>
 							<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 					<div class="col s12 m6 l3">
 						<a href="<?php the_permalink(); ?>" class="lkhover">
@@ -112,7 +115,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col s12">
-							<p class="center ver-mais"><a href="<?php the_permalink(); ?>" class="waves-effect waves-light btn-large">MAIS NOTÍCIAS</a></p>
+							<p class="center ver-mais"><a href="<?php bloginfo('url'); ?>/nav/noticias" class="waves-effect waves-light btn-large">MAIS NOTÍCIAS</a></p>
 						</div>
 					</div>
 				</div>
@@ -123,7 +126,7 @@
         	<div class="container">
         		<div class="row">
 		        	<div class="col s12">
-						<img src="imgs/super-banner.jpg">
+						<img src="<?php bloginfo('template_url'); ?>/imgs/super-banner.jpg">
 		        	</div>
 		        </div>
 		       
@@ -158,7 +161,7 @@
 		        </div><!--row-->
 		        <div class="row ">
 						<div class="col s12">
-							<p class="center ver-mais"><a href="#" class="waves-effect waves-light btn-large">MAIS NOTÍCIAS</a></p>
+							<p class="center ver-mais"><a href="<?php bloginfo('url'); ?>/nav/materias-entrevistas" class="waves-effect waves-light btn-large">MAIS ENTREVISTAS</a></p>
 						</div>
 					</div>
         	</div>
@@ -168,7 +171,7 @@
         	<div class="container">
         		<div class="row">
 		        	<div class="col s12">
-						<img src="imgs/super-banner.jpg">
+						<img src="<?php bloginfo('template_url'); ?>/imgs/super-banner.jpg">
 		        	</div>
 		        </div>
 		       
@@ -202,7 +205,7 @@
 		        </div><!--row-->
 		        <div class="row ">
 						<div class="col s12">
-							<p class="center ver-mais"><a href="#" class="waves-effect waves-light btn-large">MAIS NOTÍCIAS</a></p>
+							<p class="center ver-mais"><a href="<?php bloginfo('url'); ?>/nav/eventos" class="waves-effect waves-light btn-large">MAIS EVENTOS</a></p>
 						</div>
 					</div>
         	</div>
@@ -212,7 +215,7 @@
         	<div class="container">
         		<div class="row">
 		        	<div class="col s12">
-						<img src="imgs/super-banner.jpg">
+						<img src="<?php bloginfo('template_url'); ?>/imgs/super-banner.jpg">
 		        	</div>
 		        </div>
 		       
