@@ -7,7 +7,7 @@
         	<div class="container">
 				<div class="row">
 					<div class="col s12">
-						<h1 class="center">EVENTOS</h1>
+						<h1 class="center">FOTOS & EVENTOS</h1>
 					</div>
 				</div>
         	</div>
@@ -19,7 +19,7 @@
          		<div class="row">
          	<div class="col s12 m8">
          		<h2 class="titulos-noticias">
-								<span><?php the_field('chapeu'); ?> | <?php echo get_the_date('d'); ?> de <?php echo get_the_date('F'); ?></span>
+								<span><?php echo get_the_date('d'); ?> de <?php echo get_the_date('F'); ?></span>
 								<?php echo strip_tags(get_the_title()); ?>
 							</h2>
 							

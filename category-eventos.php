@@ -7,7 +7,7 @@
         	<div class="container">
 				<div class="row">
 					<div class="col s12">
-						<h1 class="center">EVENTOS</h1>
+						<h1 class="center">FOTOS & EVENTOS</h1>
 					</div>
 				</div>
         	</div>
@@ -15,18 +15,18 @@
          
 
          <section class="interna">
-         	<div class="container">
+         	<div class="container lista-posts">
          		
 					
 					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 				
-				<div class="row">
+				<div class="row linha-listagem">
 					
 
 						<div class="col s12 ">
 						   	<a href="<?php the_permalink(); ?>">
 							   <h2 class="titulos-noticias">
-									<span><?php the_field('chapeu'); ?> | <?php echo get_the_date('d'); ?> de <?php echo get_the_date('F'); ?></span>
+									<span><?php echo get_the_date('d'); ?> de <?php echo get_the_date('F'); ?></span>
 									<?php echo strip_tags(get_the_title()); ?>
 								</h2>
 							</a>
@@ -45,7 +45,7 @@
 						
 				
 				</div>
-
+				
 				<?php endwhile; endif; ?> 
 
 			         <?php wp_reset_query(); ?>

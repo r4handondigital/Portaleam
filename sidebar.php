@@ -24,14 +24,10 @@
 
 							</div>
 		         		</div>
+						
 						<div class="row">
 							<div class="col s12">
-								<div class="fb-page" data-href="https://www.facebook.com/portaleam/" data-tabs="timeline" data-width="375" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/portaleam/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/portaleam/">Portal Eu Amo Macau</a></blockquote></div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col s12">
-								<img src="imgs/anigif.gif">
+								<div class="fb-page" data-href="https://www.facebook.com/portaleam/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/portaleam/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/portaleam/">Portal Eu Amo Macau</a></blockquote></div>
 							</div>
 						</div>
 					</div>

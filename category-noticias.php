@@ -15,12 +15,12 @@
          
 
          <section class="interna">
-         	<div class="container">
+         	<div class="container lista-posts">
          		
 					
 					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 				
-				<div class="row">
+				<div class="row linha-listagem">
 					
 
 						<div class="col s12 ">

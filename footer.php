@@ -34,9 +34,9 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="<?php bloginfo('template_url'); ?>/lib/js/jquery.min.js"></script>
         <script src="<?php bloginfo('template_url'); ?>/lib/js/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/lib/owl-carousel/owl.carousel.min.js"></script>
+       
         <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/lib/materialize/js/materialize.min.js"></script>
-        
+         <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/lib/owl-carousel/owl.carousel.min.js"></script>
         <script src="<?php bloginfo('template_url'); ?>/lib/js/script.js?date=<? echo date ("Ymdhis")?>"></script>
 
         <div id="fb-root"></div>

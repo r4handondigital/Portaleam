@@ -7,8 +7,8 @@
 		<meta name="description" content="Todo mundo está ligado!">
 		<meta name="author" content="Theu Maia">
 		<link rel="icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
-
-		<title>PORTAL EAM</title>
+		<meta name="theme-color" content="#2c4190">
+		<title>PORTAL EAM - Todo mundo está ligado!</title>
 
 		<!-- FONTES -->
 
@@ -23,7 +23,58 @@
 		<!-- Custom styles for this template -->
 		<link href="<?php bloginfo('template_url'); ?>/lib/css/principal.css?date=<? echo date ("Ymdhis")?>" rel="stylesheet">
 
-		<?php wp_head() ?>
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "2a63ad6d-06ea-4a42-a922-018d44b58460",
+    });
+  });
+</script>
+
+
+ <script type="text/javascript">
+
+        function fechar(){
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('bg-rich').style.display = 'none';
+        }
+
+        function abrir(){
+            document.getElementById('popup').style.display = 'block';
+        }
+
+    </script>
+
+
+<?php if (is_home()): ?>
+        
+<a id="bg-rich" href="javascript: fechar();"></a>
+                    <div align="center" id="popup">
+
+                        <div class="loop-img">
+
+                            <div class="fechar-mobile" >
+                                <a href="javascript: fechar();"><img src="<?php bloginfo('template_url'); ?>/imgs/fechar-novo.png" border="0" /></a>
+                            </div>
+ 
+                            <p align="center">
+                                
+                               <div class="fb-page" data-href="https://www.facebook.com/portaleam/" data-tabs="timeline" data-width="300" data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/portaleam/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/portaleam/">Portal Eu Amo Macau</a></blockquote></div>
+                               
+                            </p>
+                        </div>
+                    </div>
+        <?php else: ?>
+           
+            
+        <?php endif ?>
+
+
+
+
+
 	</head>
         <body>
        
@@ -60,6 +111,7 @@
 				  <div class="row top-im">
 						<div class="col s12 m12 l4">
 							<a href="<?php bloginfo('url'); ?>/" class="brand-logo"></a>
+							<a href="<?php bloginfo('url'); ?>/" class="brand-logo-x"><img src="<?php bloginfo('template_url'); ?>/imgs/LOGO-desktop.png" class="responsive-img"></a>
 						</div>
 						<div class="col s12 m12 l4">
 							<form class="form-inline widget search" method="get" id="searchform" action="<?php bloginfo('url'); ?>/">
