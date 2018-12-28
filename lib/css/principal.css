@@ -99,7 +99,7 @@ header{
 
 
 .hiper-banner img{
-	width: 100%;
+	width: 70%;
 	height: auto;
 }
 h1.titulos-noticias{
@@ -115,6 +115,9 @@ h3.titulos-noticias{
 	height: 55px;
 }
 
+.wp_bannerize{
+	text-align: center;
+}
 .brand-logo{}
 
 
@@ -586,9 +589,10 @@ transition: all 0.3s ease-in-out;
 
 
 .fechar-mobile{
-	    margin-left: 300px;
+	        margin-left: 471px;
     margin-top: -13px;
     position: absolute;
+    z-index: 9;
 }
 #bg-rich{
 	position:fixed; background:#333; opacity:0.9; z-index:9999; width:100%; height:100%; top:0; left:0;
@@ -754,8 +758,15 @@ padding: 6px 12px;
 /* COL-XS */
 @media only screen and  (max-width:767px){
 
+	.hiper-banner img{
+		width: 100%;
+	}
 
+#bg-rich{
+	display: none;
+}
 	#popup {
+		display: none;
     position: fixed;
     top: 10%;
     margin: 0 auto;
@@ -765,6 +776,7 @@ padding: 6px 12px;
 }
 
 .fechar-mobile {
+	display: none;
     margin-left: 280px;
     margin-top: -13px;
     position: absolute;

@@ -1,5 +1,5 @@
 <div class="col s12 m12 l4 banners-laterais">
-		         		<div class="row">
+		         		<!--<div class="row">
 							<div class="col s12">
 								<h4>// ÚLTIMAS</h4>
 
@@ -23,7 +23,7 @@
 
 
 							</div>
-		         		</div>
+		         		</div>-->
 						
 						<div class="row">
 							<div class="col s12">

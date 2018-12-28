@@ -48,7 +48,7 @@
     </script>
 
 
-<?php if (is_home()): ?>
+<? /*php if (is_home()): ?>
         
 <a id="bg-rich" href="javascript: fechar();"></a>
                     <div align="center" id="popup">
@@ -59,9 +59,10 @@
                                 <a href="javascript: fechar();"><img src="<?php bloginfo('template_url'); ?>/imgs/fechar-novo.png" border="0" /></a>
                             </div>
  
-                            <p align="center">
+                       
+                             <p align="center">
                                 
-                               <div class="fb-page" data-href="https://www.facebook.com/portaleam/" data-tabs="timeline" data-width="300" data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/portaleam/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/portaleam/">Portal Eu Amo Macau</a></blockquote></div>
+                               <div class="fb-page" data-href="https://www.facebook.com/portaleam/" data-tabs="timeline" data-width="500" data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/portaleam/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/portaleam/">Portal Eu Amo Macau</a></blockquote></div>
                                
                             </p>
                         </div>
@@ -69,7 +70,7 @@
         <?php else: ?>
            
             
-        <?php endif ?>
+        <?php endif */ ?>
 
 
 
