@@ -15,9 +15,9 @@
          
 
          <section class="interna">
-         	<div class="container">
+         	<div class="container lista-posts">
          		<div class="row">
-         	<div class="col s12 m8">
+         	<div class="col s12 ">
          		<h2 class="titulos-noticias">
 								<span><?php the_field('chapeu'); ?> | <?php echo get_the_date('d'); ?> de <?php echo get_the_date('F'); ?></span>
 								<?php echo strip_tags(get_the_title()); ?>
@@ -27,13 +27,14 @@
 						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 							 <?php the_content(); ?> 
 
+
+
 						<?php endwhile; endif; ?> 
          				<?php wp_reset_query(); ?> 
 				</div>
          	</div>
 
-		         	<?php get_sidebar(); ?>
-
+		         	
 				</div>
 			</div>
          </section>

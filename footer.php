@@ -5,6 +5,7 @@
 				<div class="row no-margin">
 					<div class="col s12 m3 hide-on-med-and-down">
 						<img src="<?php bloginfo('template_url'); ?>/imgs/portal-eam-rodape.png" class="responsive-img">
+
 					</div>
 
 					<div class="col s12 m6 l3">
@@ -13,7 +14,8 @@
 						+55 84.3256.25869<br>
 						contato@portaleam.com</p>
 						<h4>DESENVOLVIDO <span>POR</span></h4>
-						<p>	<a href="http://www.r4handon.com.br" target="_blank">R4HANDON.COM.BR</a></p>
+						<p>	<a href="http://www.r4handon.com.br" target="_blank">R4HANDON.COM.BR</a><br>
+            <a href='https://www.counter12.com'><img src='https://www.counter12.com/img-5DZxz7D3zDZZDBy3-57.gif' border='0' alt='acesso gratis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=5DZxz7D3zDZZDBy3'></script> visitantes</p>
 					</div>
 
 					<div class="col s12 m6 l6">

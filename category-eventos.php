@@ -36,7 +36,7 @@
 									<?php the_excerpt(); ?> 
 								</div>
 
-								<p><a href="<?php the_permalink(); ?>"	class="ver-mais">LER MAIS</a></p>
+								<p><a href="<?php the_permalink(); ?>"	class="ver-mais">CONFIRA</a></p>
 						    </div>
 
 

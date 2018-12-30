@@ -4,7 +4,15 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Todo mundo está ligado!">
+
+		<?php if (is_home()): ?>
+         	<meta name="description" content="Todo mundo está ligado!">
+        <?php else: ?>
+           
+            
+        <?php endif ?>
+
+	
 		<meta name="author" content="Theu Maia">
 		<link rel="icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 		<meta name="theme-color" content="#2c4190">
@@ -14,6 +22,7 @@
 
 
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,800,900" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link href="<?php bloginfo('template_url'); ?>/lib/materialize/css/materialize.min.css" rel="stylesheet">
@@ -33,6 +42,32 @@
   });
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39838331-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-39838331-17');
+</script>
+
+<meta property="og:type" content="article" />
+		
+				<meta property="og:title" content="<?php echo strip_tags(get_the_title()); ?>">
+
+				<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+							 
+<meta property="og:description" content="<?php the_excerpt(); ?>">
+
+						<?php endwhile; endif; ?> 
+         				<?php wp_reset_query(); ?> 
+				</div>
+				
+				<meta property="og:image" content="<?php echo catch_that_image() ?>" />
+				<meta property="og:site_name" content="PORTAL EAM">
+		        <meta itemprop="thumbnailUrl" content="<?php echo catch_that_image() ?>">
+
 
  <script type="text/javascript">
 
@@ -46,7 +81,7 @@
         }
 
     </script>
-
+<?php wp_head(); ?> 
 
 <? /*php if (is_home()): ?>
         

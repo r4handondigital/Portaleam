@@ -15,7 +15,7 @@
          
 
           <section class="interna">
-         	<div class="container">
+         	<div class="container lista-posts">
          		
          			<h4 class="pesq">Resultados da Busca: <?php /* Search Count */ $allsearch = &new WP_Query("s=$s&showposts=-1"); $key = wp_specialchars($s, 1); $count = $allsearch->post_count; _e(''); _e
 (''); echo $count . ' '; _e

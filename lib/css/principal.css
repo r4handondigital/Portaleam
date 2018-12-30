@@ -1,6 +1,10 @@
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
    font-family: 'Montserrat', sans-serif;
 }
+.interna,.interna p,.interna div,.interna b,.interna strong,.interna ul,.interna ol,.interna input,.interna textarea{
+	font-family: 'Roboto', sans-serif;
+}
+
 
 header nav{
 	background: #3e3c3d;
@@ -23,7 +27,10 @@ header nav a:hover{
 .top-im{
 	position: relative;
 }
-
+.pesq{
+	color: #2c4190;
+	font-size: 18px;
+}
 .brand-logo{
 	background: url(../../imgs/LOGO-desktop.png) no-repeat;
 	width: 353px;
@@ -67,6 +74,10 @@ header nav a:hover{
 	display: none;
 }
 
+.texto img{
+	max-width: 100%;
+	height: auto;
+}
 header{
 	border-bottom: 4px solid #d7d7d7;
 }
@@ -90,6 +101,11 @@ header{
 .redes-sociais li a i{
 	font-size:30px;
 	line-height: 30px;
+}
+
+.sharethis-inline-share-buttons{
+	margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 .redes-sociais li a:hover{
@@ -217,6 +233,10 @@ h3.titulos-noticias{
     overflow: hidden;
 }
 
+.chamadas-principais img{
+	width: 100%;
+}
+
 .bloco-azul {
 	background:url(../../imgs/textura.png) repeat-x;
     width: 100%;
@@ -229,6 +249,10 @@ h3.titulos-noticias{
 .chamadas-principais .bloco-azul {
     height: 110px;
     
+}
+.conteudo{
+	font-family: 'Roboto', sans-serif;
+
 }
 
 .conteudo iframe{
@@ -757,6 +781,10 @@ padding: 6px 12px;
 
 /* COL-XS */
 @media only screen and  (max-width:767px){
+	.interna, .interna p, .interna div, .interna b, .interna strong, .interna ul, .interna ol, .interna input, .interna textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
 
 	.hiper-banner img{
 		width: 100%;
