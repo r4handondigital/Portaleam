@@ -164,7 +164,7 @@
 										<?php echo strip_tags(get_the_title()); ?>
 									</h3>
 								
-								<p class="center mini-mais"><button href="<?php the_permalink(); ?>" class="btn blue darken-4">Veja mais vídeos</button></p>
+								<p class="center mini-mais"><button href="<?php the_permalink(); ?>" class="btn blue darken-4">Veja vídeo completo</button></p>
 								</a>
 							</div>
 						<?php endwhile; endif; ?> 
@@ -221,7 +221,7 @@
 		        </div><!--row-->
 		        <div class="row ">
 						<div class="col s12">
-							<p class="center ver-mais"><a href="<?php bloginfo('url'); ?>/nav/eventos" class="waves-effect waves-light btn-large">MAIS FOTOS</a></p>
+							<p class="center ver-mais"><a href="<?php bloginfo('url'); ?>/nav/eventos" class="waves-effect waves-light btn-large">OUTROS EVENTOS</a></p>
 						</div>
 					</div>
         	</div>
