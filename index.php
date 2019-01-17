@@ -100,7 +100,7 @@
 			<div class="container">
 				<div class="row">
 
-				<?php query_posts(array( 'post_type' => 'post','showposts' => '4', 'cat' => '-4,-5,-6,-2,-3' )); ?>
+				<?php query_posts(array( 'post_type' => 'post','showposts' => '8', 'cat' => '-4,-5,-6,-2,-3' )); ?>
 							<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 					<div class="col s12 m6 l3">
 						<a href="<?php the_permalink(); ?>" class="lkhover">
