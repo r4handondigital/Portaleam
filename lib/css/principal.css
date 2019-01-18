@@ -5,7 +5,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
 	font-family: 'Roboto', sans-serif;
 }
 
-
+.img-desk img{
+	height:190px;
+}
 header nav{
 	background: #3e3c3d;
 	height: 50px;
@@ -124,11 +126,11 @@ h1.titulos-noticias{
 }
 
 h3.titulos-noticias{
-	font-size: 16px;
+	font-size: 15px;
 	margin-top: 5px;
 	display: inline-block;
 	width: 100%;
-	height: 55px;
+	height: 80px;
 }
 
 .wp_bannerize{
